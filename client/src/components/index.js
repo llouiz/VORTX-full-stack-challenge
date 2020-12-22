@@ -32,7 +32,7 @@ class Index extends Component {
                 <select
                   id='codor'
                   name='codor'
-                  className='form-select'
+                  className='form-select' 
                   required
                 >
                   <option value=''>Selecione</option>
