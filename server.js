@@ -31,7 +31,7 @@ app.post('/server', function (req, res) {
     limite_excedido = mins - plano;
   }
 
-  if (codor == '011' && codest == '016') {
+  if (codor == '011' && codest == '016') { 
     //Plano sem FaleMais
     sem_fale = mins * 1.9;
 
