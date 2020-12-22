@@ -1,0 +1,26 @@
+{
+  "name": "vxtel_falemais",
+  "version": "1.0.0",
+  "description": "My fullstack dev challenge",
+  "main": "server.js",
+  "scripts": {
+    "client-install": "cd client && npm install",
+    "start": "node server",
+    "server": "nodemon server",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "test-init": "node ./node_modules/jasmine/bin/jasmine.js init",
+    "test": "node ./node_modules/jasmine/bin/jasmine.js"
+  },
+  "author": "Luiz Carlos",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^5.3.0",
+    "express": "^4.17.1",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "jasmine": "^3.6.3",
+    "nodemon": "^2.0.6"
+  }
+}

@@ -1,0 +1,57 @@
+/**
+* Author: Luiz Carlos
+* Author's URI: https://github.com/llouiz
+**/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: rgb(216, 171, 88);
+  font-family: 'Roboto', sans-serif;
+}
+
+.container h1 {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.container h4 {
+  text-align: center;
+}
+
+.form-select {
+  width: 260px;
+}
+
+.form-control {
+  width: 100px;
+}
+
+form {
+  margin-top: 20px;
+}
+
+table {
+  margin-top: 80px;
+}
+
+tr {
+  text-align: center;
+}
+
+footer {
+  background: #666;
+  padding: 15px;
+  text-align: center;
+  margin-top: 320px;
+  color: #fff;
+}
+
+footer .txt {
+  margin-top: 25px;
+}
