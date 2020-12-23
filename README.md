@@ -1,3 +1,6 @@
+# Vortx Full Stack Challenge
+
+```
 ## Baixar as dependências do servidor
 npm install
 
@@ -15,10 +18,11 @@ npm run client
 
 ## Servidor roda em http://localhost:5000 e client http://localhost:3000
 	
-- Testes com Jasmine Framework
+> Testes com Jasmine Framework
 
 ## inicializar Jasmine specs
 npm run test-init
 
 ## Rodar e testar a aplicação
 npm test / npm run test
+```
