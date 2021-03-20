@@ -7,7 +7,7 @@ npm install
 ## Baixar as dependências do client
 npm run client-install
 
-## Rodar o client e server com concurrently
+## Rodar o client e server simultaneamente
 npm run dev
 
 ## Rodar apenas o servidor
