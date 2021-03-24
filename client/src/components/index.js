@@ -119,7 +119,7 @@ class Index extends Component {
           </div>
         </div>
         <footer>
-          <h4 className='txt'>VxTel - FaleMais &copy; 2020</h4>
+          <h4 className='txt'>VxTel - FaleMais &copy; {new Date().getFullYear()}</h4>
         </footer>
       </div>
     );
